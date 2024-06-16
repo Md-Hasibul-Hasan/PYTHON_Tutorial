@@ -1,4 +1,4 @@
-# #list e data change kore jebabe dic e data add kore seibabe
+  # #list e data change kore jebabe dic e data add kore seibabe
 
 li=["hasib", 1,2,3.4,True ,None ]
 print(li)
@@ -36,19 +36,19 @@ print(li[1:3])
 # fruits.remove("apple")
 # print(fruits)
 # #
-# # # print(fruits.count("apple"))
-# # # fruits.sort()
-# # # print(fruits)
-# # # num=[3,4,5,2,1]
-# # # # num.sort()
-# # # print(num)
-# # # print(sorted(num))
-# # # print(num)
-# # # # num.clear()
-# # # # print(num)
-# # # num2=num.copy()
-# # # print(num2)
-# #
+# print(fruits.count("apple"))
+# fruits.sort()
+# print(fruits)
+# num=[3,4,5,2,1]
+# # num.sort()
+# print(num)
+# print(sorted(num))
+# print(num)
+# # num.clear()
+# # print(num)
+# num2=num.copy()
+# print(num2)
+#
 # info=input("enter ur name and age:").split() #space separated
 # print(info) #['hasib', '34']
 # info=input("enter ur name and age:").split(",")  #comma separated
