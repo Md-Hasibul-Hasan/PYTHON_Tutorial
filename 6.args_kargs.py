@@ -7,6 +7,3 @@ def fun(num,*args):
     print(sum)
 fun(1,2,3,4,5)
 
-
-
-

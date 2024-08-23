@@ -5,7 +5,7 @@ import os
 # print(os.getcwd())
 
 
-# create folder os.mkdir()
+# create folder in current directory os.mkdir()
 
 # if os.path.exists("movies"):
 #     print("already exists")
@@ -23,12 +23,14 @@ import os
 #    os.mkdir(r"C:\Users\offic\OneDrive\Pictures\pics")
 
 
-# create foler in folder os.makedirs()
+# create foler in folder os.makedirs() not mkdirs()
 # os.makedirs("folder1/folder2")
 
 
 
 #create file
+
+# open("aaaa", 'a').close()
 
 # with open("aaa.txt","a") as f:
 #     f.write("")
@@ -51,10 +53,12 @@ import os
 #     print(f"file name {file_name}")
 
 
+#delete files
+# os.remove("file name")
 
-import shutil
 
 # delete folder  --> ("path")
+# import shutil
 # shutil.rmtree("movies") 
 
 # copy files and folder   --> (r"path", r"path")

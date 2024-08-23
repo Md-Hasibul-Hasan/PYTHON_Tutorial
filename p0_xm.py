@@ -72,31 +72,66 @@
 from datetime import datetime, timedelta
 import time
 
-future_date = datetime(2024, 4, 20)
-next_update = time.time()
+future_date = datetime(2024,7,23,0,0,0,0)
+next_update =time.time()
 
+date=datetime.now()
+print(date)
+print(future_date)
+print(future_date-date)
 
-while True:
-    current_time = time.time()
+# while True:
+#     current_time = time.time()
     
-    if current_time >= next_update:
-        time_difference = future_date - datetime.now()
+#     if current_time >= next_update:
+#         time_difference = future_date - datetime.now()
 
-        # Extract days, hours, minutes, and seconds from timedelta
-        days = time_difference.days
-        hours, remainder = divmod(time_difference.seconds, 3600)
-        minutes, seconds = divmod(remainder, 60)
+#         # Extract days, hours, minutes, and seconds from timedelta
+#         days = time_difference.days
+#         hours, remainder = divmod(time_difference.seconds, 3600)
+#         minutes, seconds = divmod(remainder, 60)
 
-        # Construct a string representation
-        time_difference_str = f"{days} days {hours} hours {minutes} minutes" #{seconds} seconds"
+#         # Construct a string representation
+#         time_difference_str = f"{days} days {hours} hours {minutes} minutes {seconds} seconds"
 
-        print(time_difference_str)
+#         print(time_difference_str)
 
-        # Set the next update time to one minute from now
-        next_update += 60
+#         # Set the next update time to one minute from now
+#         next_update += 60
     
-    # Check for updates every 100 milliseconds
-    time.sleep(0.1)
+#     # Check for updates every 100 milliseconds
+#     time.sleep(0.1)
+
+
+
+# from datetime import datetime, timedelta
+# import time
+
+# future_date = datetime(2024, 7, 23)
+# next_update = time.time()
+
+
+# while True:
+#     current_time = time.time()
+    
+#     if current_time >= next_update:
+#         time_difference = future_date - datetime.now()
+
+#         # Extract days, hours, minutes, and seconds from timedelta
+#         days = time_difference.days
+#         hours, remainder = divmod(time_difference.seconds, 3600)
+#         minutes, seconds = divmod(remainder, 60)
+
+#         # Construct a string representation
+#         time_difference_str = f"{days} days {hours} hours {minutes} minutes {seconds} seconds"
+
+#         print(time_difference_str)
+
+#         # Set the next update time to one minute from now
+#         next_update += 60
+    
+#     # Check for updates every 100 milliseconds
+#     time.sleep(0.1)
 
 
 

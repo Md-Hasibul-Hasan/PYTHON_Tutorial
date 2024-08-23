@@ -33,8 +33,3 @@ def divide():
             print("error Try again")
 divide()
 
-
-
-        
-
-    

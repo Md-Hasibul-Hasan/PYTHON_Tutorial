@@ -1,2 +1,4 @@
-Hasib er age 12
-asif er age 13
+hasib er age is 12
+asif er age is 13
+hasib er age is 12
+asif er age is 13

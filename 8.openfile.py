@@ -1,4 +1,4 @@
-#    read method
+ #    read method
 
 # f=open("myfile.txt","r")
 # print(f.read())

@@ -6,10 +6,6 @@ i=int(input("enter"))
 j=int(input("enter:"))
 print(sum(i,j))
 
-# i=input("enter")
-# j=input("enter:")
-# print(sum(i,j))
-
 
 #####            return vs print
 # def sum(a,b):

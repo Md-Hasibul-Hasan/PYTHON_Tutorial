@@ -8,6 +8,7 @@ print(li[1:3])
 # print(li )
 # li[1:]="one"
 # print(li)
+
 # ####### addd items: "append, insert, extend"
 # fruits=["graps","mango",]
 # fruits.append("apple") #add item in last
@@ -79,6 +80,9 @@ print(li[1:3])
 # num=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,1,2,3,1]
 # print(num.index(2))
 # print(num.index(2,num.index(2)+1))
+
+
+
 
 # num=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,]
 
@@ -165,7 +169,6 @@ print(li[1:3])
 # print(f(li))
 
 # name=[1,2,3,4,51]
-# # for i in name:
 # for i in range(0,len(name)):
 #     p=name.pop()
 #     print(p)

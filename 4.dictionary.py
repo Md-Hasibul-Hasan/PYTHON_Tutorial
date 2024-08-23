@@ -41,6 +41,9 @@
 # }
 # print(users)
 # print(users[" userinfo1"])
+# print(users[" userinfo1"]["name"])
+# print(user.get("userinfo1"))
+# print(user.get("userinfo1").get("name"))
 
 # add data in dc: list a data jebabe poriborton kora hoi dic a data seibabe add kora hou
 # userinfo={  }
@@ -80,7 +83,7 @@
 # print(userinfo)
 # print(poped_item)
 # #popitem method
-# pop=userinfo.popitem()# mon moto ekta pop koira dibo
+# pop=userinfo.popitem()# coder er mon moto ekta pop koira dibo
 # print(userinfo)
 # print(pop)
 # #update method
@@ -91,6 +94,8 @@
 # }
 # userinfo.update(moreinfo)
 # print(userinfo)
+
+
 #fromkeys
 # d=dict.fromkeys(["name","age"],"unknown")#list er maddome
 # print(d)
@@ -102,6 +107,7 @@
 # print(d4)
 
 #clear copy ager motoi
+
 
 #cube finder
 
